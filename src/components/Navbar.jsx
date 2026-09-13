@@ -42,14 +42,6 @@ const Navbar = () => {
           </Link>
         </li>
 
-        <li>
-          <Link
-            href="/dashboard"
-            className="block cursor-pointer rounded-lg p-2 text-sm font-semibold text-black transition hover:bg-blue-50 hover:text-blue-500 sm:px-3 sm:text-base"
-          >
-            Dashboard
-          </Link>
-        </li>
 
         <li>
           <Link
