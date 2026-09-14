@@ -5,6 +5,17 @@ const Navbar = () => {
   return (
     <nav className="flex justify-center bg-white p-2 shadow-md">
       <ul className="flex flex-wrap items-center justify-center gap-1 sm:gap-2">
+
+         
+        <li>
+          <Link
+            href="/"
+            className="block cursor-pointer rounded-lg p-2 text-sm font-semibold text-black transition hover:bg-blue-50 hover:text-blue-500 sm:px-3 sm:text-base"
+          >
+            Home
+          </Link>
+        </li>
+
         
         <li>
           <Link
